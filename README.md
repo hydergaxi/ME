@@ -12,6 +12,8 @@
 ---
 
 ## 🧙‍♂️ Code Alchemist | AI Architect
+
+```javascript
 const hydergaxi = {
     location: "Srinagar, India",
     role: "Full-Stack Developer & AI Engineer",
