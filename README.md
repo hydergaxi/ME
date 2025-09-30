@@ -1,66 +1,112 @@
-<!--
-HYDER GAXI | Full-Stack Dev, AI & Robotics Enthusiast
--->
+<div align="center">
 
-<p align="center">
-  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="150" style="border-radius:50%;">
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0a0a0a&height=120&section=header&text=HYDER%20GAXI&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%"/>
 
-<h1 align="center" style="color:#ffffff;">Hi, I'm HYDER GAXI 👋</h1>
-<p align="center" style="color:#bbbbbb;">Full-Stack Developer | AI & Robotics Explorer | Cybersecurity Enthusiast | Lifelong Learner</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Code+Alchemist+%F0%9F%A7%AA;AI+%26+Automation+Expert+%F0%9F%A4%96;Full-Stack+Developer+%F0%9F%92%BB;Open+Source+Contributor+%E2%9C%A8" alt="Typing SVG" />
 
----
+![Profile Views](https://komarev.com/ghpvc/?username=hydergaxi&color=00D9FF&style=flat-square&label=Profile+Views)
+![GitHub Followers](https://img.shields.io/github/followers/hydergaxi?style=flat-square&color=00D9FF&labelColor=000000)
 
-## 💻 About Me
-
-- 🌍 Based in **Srinagar, India**  
-- 🎓 **Medico student in the making** (Learning never stops!)  
-- 🤖 Passionate about **Artificial Intelligence, Robotics, and Machine Learning**  
-- 🌐 Building **Full-Stack Web Applications** with modern technologies  
-- 🔐 Exploring **Cybersecurity** and ethical hacking  
-- ⚡ Enjoy solving **complex coding problems** and turning ideas into reality  
+</div>
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🧙‍♂️ Code Alchemist | AI Architect
 
-| Frontend | Backend | AI & ML | DevOps & Tools |
-|----------|---------|---------|----------------|
-| HTML, CSS, JS, React | Node.js, Express, Django | Python, TensorFlow, PyTorch | Git, Docker, VS Code |
-| TypeScript | MongoDB, MySQL | OpenCV, NLP | Linux, Bash, CI/CD |
-| Tailwind, Bootstrap | REST APIs | AI Code Alchemy | Postman, GitHub Actions |
-
----
-
-## 🌐 Connect with Me
-
-<p align="center">
-  <a href="https://x.com/hydergaxii" target="_blank"><img src="https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X"></a>
-  <a href="https://medium.com/@hydergaxi" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
-  <a href="https://linkedin.com/in/hydergaxi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://instagram.com/hydergaxi" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://t.me/hydergaxi" target="_blank"><img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
-</p>
+const hydergaxi = {
+    location: "Srinagar, India",
+    role: "Full-Stack Developer & AI Engineer",
+    specialization: ["AI Automation", "Web Development", "Cybersecurity"],
+    currentlyBuilding: ["AI-powered tools", "Modern web apps", "Open source projects"],
+    techStack: {
+        frontend: ["React", "TypeScript", "TailwindCSS", "Next.js"],
+        backend: ["Node.js", "Express", "Django", "REST APIs"],
+        aiml: ["Python", "TensorFlow", "PyTorch", "OpenCV", "NLP"],
+        devops: ["Docker", "Linux", "Git", "GitHub Actions", "CI/CD"],
+        tools: ["VS Code", "Postman", "Termux", "Bash"]
+    },
+    philosophy: "Build to learn, code to create, automate to scale"
+};
 
 ---
 
-## 📊 GitHub Stats
+## 🛠️ Tech Arsenal
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hydergaxi&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydergaxi&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
-</p>
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+</div>
 
 ---
 
-## ⚡ Fun Facts
+## 📊 GitHub Analytics
 
-- I create **AI-powered tools and scripts** for automation & coding productivity.  
-- I enjoy **problem-solving challenges** and competitive programming.  
-- I believe in **learning by building**, not just reading.  
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hydergaxi&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&ring_color=00D9FF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydergaxi&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=c9d1d9"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hydergaxi&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hydergaxi&theme=github-compact&hide_border=true&bg_color=0d1117&color=00D9FF&line=00D9FF&point=ffffff&area=true&area_color=00D9FF" alt="Activity Graph"/>
+
+</div>
 
 ---
 
-<p align="center" style="color:#666666;">
-Made with ❤️ by HYDER GAXI
-</p>
+## 🏆 Achievements
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=hydergaxi&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7)
+
+</div>
+
+---
+
+## 🔥 Current Focus
+
+- 🤖 Building AI automation tools and intelligent systems
+- 🌐 Crafting modern full-stack web applications
+- 🔐 Exploring cybersecurity and ethical hacking techniques
+- 📦 Contributing to open source projects
+- ⚡ Solving complex coding challenges and optimizing algorithms
+
+---
+
+## 🌐 Connect
+
+<div align="center">
+
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/hydergaxii)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@hydergaxi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hydergaxi)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/hydergaxi)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hydergaxi)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hg.is-great.org)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:000000&height=80&section=footer" width="100%"/>
+
+<sub>💻 Code • 🧪 Experiment • 🚀 Deploy • ♾️ Repeat</sub>
+
+**Made with ⚡ by Hyder Gaxi**
+
+</div>
