@@ -1,3 +1,36 @@
+<div style="background-color:#0d1017; color:#c9d1d9; padding: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0a0a0a&height=120&section=header&text=HYDER%20GAXI&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Code+Alchemist+%F0%9F%A7%AA;AI+%26+Automation+Expert+%F0%9F%A4%96;Full-Stack+Developer+%F0%9F%92%BB;Open+Source+Contributor+%E2%9C%A8" alt="Typing SVG" />
+
+![Profile Views](https://komarev.com/ghpvc/?username=hydergaxi&color=00D9FF&style=flat-square&label=Profile+Views)
+![GitHub Followers](https://img.shields.io/github/followers/hydergaxi?style=flat-square&color=00D9FF&labelColor=000000)
+
+</div>
+
+---
+
+## 🧙‍♂️ Code Alchemist | AI Architect
+
+```javascript
+const hydergaxi = {
+    location: "Srinagar, India",
+    role: "Full-Stack Developer & AI Engineer",
+    specialization: ["AI Automation", "Web Development", "Cybersecurity"],
+    currentlyBuilding: ["AI-powered tools", "Modern web apps", "Open source projects"],
+    techStack: {
+        frontend: ["React", "TypeScript", "TailwindCSS", "Next.js"],
+        backend: ["Node.js", "Express", "Django", "REST APIs"],
+        aiml: ["Python", "TensorFlow", "PyTorch", "OpenCV", "NLP"],
+        devops: ["Docker", "Linux", "Git", "GitHub Actions", "CI/CD"],
+        tools: ["VS Code", "Postman", "Termux", "Bash"]
+    },
+    philosophy: "Build to learn, code to create, automate to scale"
+};
+```
 
 ---
 
