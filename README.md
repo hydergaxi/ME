@@ -12,7 +12,6 @@
 ---
 
 ## 🧙‍♂️ Code Alchemist | AI Architect
-
 const hydergaxi = {
     location: "Srinagar, India",
     role: "Full-Stack Developer & AI Engineer",
@@ -27,7 +26,6 @@ const hydergaxi = {
     },
     philosophy: "Build to learn, code to create, automate to scale"
 };
-
 ---
 
 ## 🛠️ Tech Arsenal
