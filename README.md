@@ -28,6 +28,8 @@ const hydergaxi = {
     },
     philosophy: "Build to learn, code to create, automate to scale"
 };
+```
+
 ---
 
 ## 🛠️ Tech Arsenal
