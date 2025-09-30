@@ -1,312 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HYDER GAXI AI Code Alchemist</title>
-    <style>
-        /* Base body and background */
-        body {
-            background-color: #0d1017;
-            color: #c9d1d9;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Centered container for main content */
-        div[data-align="center"] {
-            text-align: center;
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        /* Header Section */
-        section.headertext {
-            font-size: 60px;
-            color: #f0f0f5;
-            animation: fadeIn 2s ease forwards;
-            font-weight: 700;
-            margin-top: 20px;
-            margin-bottom: 0;
-            line-height: 1.1;
-        }
-
-        /* Animations */
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Typing SVG Container */
-        p img[src*="readme-typing-svg"] {
-            display: inline-block;
-            width: 500px;
-            max-width: 90vw;
-            margin-top: 10px;
-        }
-
-        /* Badge Images */
-        p img[src*="shields.io"] {
-            margin: 5px 10px;
-            vertical-align: middle;
-            border-radius: 6px;
-            background-color: #161b2d;
-            box-shadow: 0 0 6px 1px #00d9ff55;
-            transition: box-shadow 0.3s ease;
-        }
-
-        /* Hover effect on badges */
-        p img[src*="shields.io"]:hover {
-            box-shadow: 0 0 10px 3px #00d9ffcc;
-        }
-
-        /* Horizontal rule */
-        hr {
-            border: 1px solid #1d2536;
-            margin: 30px 0;
-            box-shadow: 0 0 4px #00d9ff44;
-        }
-
-        /* Headings */
-        h2 {
-            color: #00d9ff;
-            font-weight: 700;
-            font-size: 2rem;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #00d9ff44;
-            padding-bottom: 6px;
-            text-align: center;
-            user-select: none;
-        }
-
-        /* Source code block styling */
-        pre.sourceCode {
-            background-color: #121822;
-            color: #c9d1d9;
-            padding: 12px 16px;
-            border-radius: 8px;
-            overflow-x: auto;
-            font-family: 'Fira Code', monospace, monospace;
-            font-size: 15px;
-            box-shadow: inset 0 0 12px #00d9ff55;
-            margin-top: 20px;
-            margin-bottom: 30px;
-            user-select: text;
-        }
-
-        /* Links inside code blocks */
-        pre.sourceCode a {
-            color: #00aaff;
-            text-decoration: none;
-        }
-
-        pre.sourceCode a:hover {
-            text-decoration: underline;
-        }
-
-        /* Lists styling */
-        ul {
-            list-style-type: disc;
-            padding-left: 40px;
-            color: #adb7c2;
-            font-size: 1rem;
-            line-height: 1.6;
-            max-width: 700px;
-            margin: 0 auto 30px auto;
-            user-select: text;
-        }
-
-        /* List item spacing */
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        /* Footer */
-        section.footer {
-            background-color: #101424;
-            color: #8091a5;
-            font-size: 14px;
-            padding: 15px 0;
-            text-align: center;
-            user-select: none;
-            box-shadow: inset 0 5px 15px #00d9ff33;
-            margin-top: 50px;
-        }
-
-        section.footer p strong {
-            color: #00d9ff;
-        }
-
-        /* Images with alt text that serve as icons or logos */
-        img[alt*="Logo"], img[alt*="logo"], img[alt*="badge"] {
-            filter: drop-shadow(0 0 4px #00d9ffaa);
-        }
-
-        /* Responsive tweaks */
-        @media (max-width: 600px) {
-            section.headertext {
-                font-size: 40px;
-            }
-
-            pre.sourceCode {
-                font-size: 13px;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-
-        /* Scrollbar styling for code blocks */
-        pre.sourceCode::-webkit-scrollbar {
-            height: 8px;
-        }
-
-        pre.sourceCode::-webkit-scrollbar-thumb {
-            background-color: #00d9ffaa;
-            border-radius: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyder Gaxi | Code Alchemist</title>
 </head>
-
-<body>
-    <div data-align="center">
-        <p><img src="https://capsule-render.vercel.app/api?type=waving&color=000000,1000a0a0a&height=120" alt="Waving capsule" /></p>
-        <section class="headertext">
-            HYDER <span style="color:#00d9ff">GAXI</span>
-        </section>
-        <p><img src="https://readme-typing-svg.herokuapp.com?font=FiraCode&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=CodeAlchemist;AI%26AutomationExpert;Full-StackDeveloper;OpenSourceContributor" alt="Typing SVG" /></p>
-        <p>
-            <img src="https://komarev.com/ghpvc/?username=hydergaxi&color=00D9FF&style=flat-square&label=ProfileViews" alt="Profile Views" />
-            <img src="https://img.shields.io/github/followers/hydergaxi?style=flat-square&color=00D9FF&labelColor=000000" alt="GitHub Followers" />
-        </p>
-        <hr />
-        <h2 id="code-alchemist-ai-architect">Code Alchemist AI Architect</h2>
-        <div class="sourceCode" id="cb1">
-            <pre class="sourceCode javascriptcode" id="cb1pre" tabindex="1" aria-hidden="true">
-<span class="kw">const</span> hydergaxi = {
-  <a href="#cb1-1" tabindex="1" aria-hidden="true">locations</a>: <span class="st">"Srinagar, India"</span>,
-  <a href="#cb1-2" tabindex="1" aria-hidden="true">roles</a>: <span class="st">"Full-Stack Developer & AI Engineer"</span>,
-  <a href="#cb1-3" tabindex="1" aria-hidden="true">specializations</a>: [
-    <span class="st">"AI Automation"</span>,
-    <span class="st">"Web Development"</span>,
-    <span class="st">"Cybersecurity"</span>
-  ],
-  <a href="#cb1-4" tabindex="1" aria-hidden="true">currentlyBuilding</a>: [
-    <span class="st">"AI-powered tools"</span>,
-    <span class="st">"Modern web apps"</span>,
-    <span class="st">"Open source projects"</span>
-  ],
-  <a href="#cb1-5" tabindex="1" aria-hidden="true">techStack</a>: {
-    frontend: [
-      <span class="st">"React"</span>,
-      <span class="st">"TypeScript"</span>,
-      <span class="st">"TailwindCSS"</span>,
-      <span class="st">"Next.js"</span>
-    ],
-    backend: [
-      <span class="st">"Node.js"</span>,
-      <span class="st">"Express"</span>,
-      <span class="st">"Django"</span>,
-      <span class="st">"REST APIs"</span>
-    ],
-    ai_ml: [
-      <span class="st">"Python"</span>,
-      <span class="st">"TensorFlow"</span>,
-      <span class="st">"PyTorch"</span>,
-      <span class="st">"OpenCV"</span>,
-      <span class="st">"NLP"</span>
-    ],
-    devops: [
-      <span class="st">"Docker"</span>,
-      <span class="st">"Linux"</span>,
-      <span class="st">"Git"</span>,
-      <span class="st">"GitHub Actions"</span>,
-      <span class="st">"CICD"</span>
-    ],
-    tools: [
-      <span class="st">"VS Code"</span>,
-      <span class="st">"Postman"</span>,
-      <span class="st">"Termux"</span>,
-      <span class="st">"Bash"</span>
-    ]
-  },
-  <a href="#cb1-6" tabindex="1" aria-hidden="true">philosophy</a>: <span class="st">"Build to learn, code to create, automate to scale"</span>
-};
-            </pre>
-        </div>
-        <hr />
-        <h2 id="tech-arsenal">Tech Arsenal</h2>
-        <div data-align="center">
-            <p>
-                <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-                <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-                <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-                <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-                <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-                <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-                <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-                <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-                <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-                <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-                <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-            </p>
-        </div>
-        <hr />
-        <h2 id="github-analytics">GitHub Analytics</h2>
-        <div data-align="center">
-            <p><img height="180em" src="https://github-readme-stats.vercel.app/api?username=hydergaxi&show_icons=true&theme=github-dark&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&ring_color=00D9FF" alt="GitHub Stats" /></p>
-            <p><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=hydergaxi&layout=compact&theme=github-dark&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=c9d1d9" alt="Top Languages" /></p>
-            <p><img src="https://github-readme-streak-stats.herokuapp.com?user=hydergaxi&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak" /></p>
-            <p><img src="https://github-readme-activity-graph.vercel.app/graph?username=hydergaxi&theme=github-compact&hide_border=true&bg_color=0d1117&color=00D9FF&line=00D9FF&point=ffffff&areatrue&areacolor=00D9FF" alt="Activity Graph" /></p>
-        </div>
-        <hr />
-        <h2 id="achievements">Achievements</h2>
-        <div data-align="center">
-            <figure>
-                <img src="https://github-profile-trophy.vercel.app?username=hydergaxi&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies" />
-                <figcaption aria-hidden="true">Trophies</figcaption>
-            </figure>
-        </div>
-        <hr />
-        <h2 id="current-focus">Current Focus</h2>
-        <ul>
-            <li>Building AI automation tools and intelligent systems</li>
-            <li>Crafting modern full-stack web applications</li>
-            <li>Exploring cybersecurity and ethical hacking techniques</li>
-            <li>Contributing to open source projects</li>
-            <li>Solving complex coding challenges and optimizing algorithms</li>
-        </ul>
-        <hr />
-        <h2 id="connect">Connect</h2>
-        <div data-align="center">
-            <a href="https://x.com/hydergaxi"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-            <a href="https://medium.com/hydergaxi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-            <a href="https://linkedin.com/in/hydergaxi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-            <a href="https://instagram.com/hydergaxi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-            <a href="https://t.me/hydergaxi"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-            <a href="https://hg.is-great.org"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
-        </div>
+<body style="margin:0; background:#0d1017;">
+  <div
+    style="background-color:#0d1017; color:#c9d1d9; padding: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div style="text-align:center;">
+      <p>
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0a0a0a&height=120&section=header&text=HYDER%20GAXI&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%"/>
+      </p>
+      <p>
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Code+Alchemist+%F0%9F%A7%AA;AI+%26+Automation+Expert+%F0%9F%A4%96;Full-Stack+Developer+%F0%9F%92%BB;Open+Source+Contributor+%E2%9C%A8" alt="Typing SVG" />
+      </p>
+      <p>
+        <img src="https://komarev.com/ghpvc/?username=hydergaxi&amp;color=00D9FF&amp;style=flat-square&amp;label=Profile+Views" alt="Profile Views" />
+        <img src="https://img.shields.io/github/followers/hydergaxi?style=flat-square&amp;color=00D9FF&amp;labelColor=000000" alt="GitHub Followers" />
+      </p>
     </div>
-    <section class="footer">
-        <p>
-            <sub>Code Experiment Deploy Repeat</sub>
-        </p>
-        <p>
-            <strong>Made with ❤️ by Hyder Gaxi</strong>
-        </p>
-    </section>
+    <hr />
+    <h2 id="code-alchemist-ai-architect">🧙‍♂️ Code Alchemist | AI Architect</h2>
+    <pre style="background:#161b22;color:#c9d1d9;padding:16px;border-radius:6px;overflow-x:auto;">
+const hydergaxi = {
+    location: "Srinagar, India",
+    role: "Full-Stack Developer & AI Engineer",
+    specialization: ["AI Automation", "Web Development", "Cybersecurity"],
+    currentlyBuilding: ["AI-powered tools", "Modern web apps", "Open source projects"],
+    techStack: {
+        frontend: ["React", "TypeScript", "TailwindCSS", "Next.js"],
+        backend: ["Node.js", "Express", "Django", "REST APIs"],
+        aiml: ["Python", "TensorFlow", "PyTorch", "OpenCV", "NLP"],
+        devops: ["Docker", "Linux", "Git", "GitHub Actions", "CI/CD"],
+        tools: ["VS Code", "Postman", "Termux", "Bash"]
+    },
+    philosophy: "Build to learn, code to create, automate to scale"
+};
+    </pre>
+    <hr />
+    <h2 id="tech-arsenal">🛠️ Tech Arsenal</h2>
+    <div style="text-align:center;">
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" alt="Linux" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" />
+      </p>
+    </div>
+    <hr />
+    <h2 id="github-analytics">📊 GitHub Analytics</h2>
+    <div style="text-align:center;">
+      <p>
+        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hydergaxi&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&ring_color=00D9FF"/>
+        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hydergaxi&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=c9d1d9"/>
+      </p>
+      <p>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=hydergaxi&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+      </p>
+      <p>
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=hydergaxi&theme=github-compact&hide_border=true&bg_color=0d1117&color=00D9FF&line=00D9FF&point=ffffff&area=true&area_color=00D9FF" alt="Activity Graph"/>
+      </p>
+    </div>
+    <hr />
+    <h2 id="achievements">🏆 Achievements</h2>
+    <div style="text-align:center;">
+      <figure>
+        <img src="https://github-profile-trophy.vercel.app/?username=hydergaxi&amp;theme=darkhub&amp;no-frame=true&amp;no-bg=true&amp;row=1&amp;column=7" alt="Trophies" />
+        <figcaption aria-hidden="true">Trophies</figcaption>
+      </figure>
+    </div>
+    <hr />
+    <h2 id="current-focus">🔥 Current Focus</h2>
+    <ul>
+      <li>🤖 Building AI automation tools and intelligent systems</li>
+      <li>🌐 Crafting modern full-stack web applications</li>
+      <li>🔐 Exploring cybersecurity and ethical hacking techniques</li>
+      <li>📦 Contributing to open source projects</li>
+      <li>⚡ Solving complex coding challenges and optimizing algorithms</li>
+    </ul>
+    <hr />
+    <h2 id="connect">🌐 Connect</h2>
+    <div style="text-align:center;">
+      <p>
+        <a href="https://x.com/hydergaxii"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="X" /></a>
+        <a href="https://medium.com/@hydergaxi"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&amp;logo=medium&amp;logoColor=white" alt="Medium" /></a>
+        <a href="https://linkedin.com/in/hydergaxi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+        <a href="https://instagram.com/hydergaxi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" /></a>
+        <a href="https://t.me/hydergaxi"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Telegram" /></a>
+        <a href="https://hg.is-great.org"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Portfolio" /></a>
+      </p>
+    </div>
+    <hr />
+    <div style="text-align:center;">
+      <p>
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:000000&height=80&section=footer" width="100%"/>
+      </p>
+      <p><sub>💻 Code • 🧪 Experiment • 🚀 Deploy • ♾️ Repeat</sub></p>
+      <p><strong>Made with ⚡ by Hyder Gaxi</strong></p>
+    </div>
+  </div>
 </body>
-
 </html>
